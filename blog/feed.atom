@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <title type="html">Blog Starter Template</title>
-    <subtitle type="text">Generate an elegant blog with Jigsaw</subtitle>
+    <title type="html">Meu Portfólio</title>
+    <subtitle type="html">Blog pessoal - Compartilhando conhecimentos e experiências</subtitle>
     <link href="https://my-jigsaw-blog.com" />
     <link type="application/atom+xml" rel="self" href="https://my-jigsaw-blog.com/blog/feed.atom" />
     <updated>2020-05-27T13:19:48+00:00</updated>
