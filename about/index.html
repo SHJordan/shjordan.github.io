@@ -4,23 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Generate an elegant blog with Jigsaw">
+        <meta name="description" content="A little bit about Blog Starter Template">
 
-        <meta property="og:title" content="Blog Starter Template"/>
+        <meta property="og:title" content="About Blog Starter Template"/>
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://my-jigsaw-blog.com/about"/>
-        <meta property="og:description" content="Generate an elegant blog with Jigsaw" />
+        <meta property="og:description" content="A little bit about Blog Starter Template" />
 
-        <title>Blog Starter Template</title>
+        <link rel="canonical" href="https://my-jigsaw-blog.com/about">
+        <title>About - Blog Starter Template</title>
 
         <link rel="home" href="https://my-jigsaw-blog.com">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="Blog Starter Template Atom Feed">
-
-            <meta property="og:title" content="About Blog Starter Template" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://my-jigsaw-blog.com/about"/>
-    <meta property="og:description" content="A little bit about Blog Starter Template" />
 
                     <!-- Insert analytics code here -->
         
@@ -29,6 +25,7 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
+        <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-white focus:p-4 focus:text-blue-600 focus:font-bold focus:shadow-lg focus:rounded">Skip to main content</a>
         <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
@@ -42,7 +39,7 @@
                 <div id="vue-search" class="flex flex-1 justify-end items-center">
                     <search></search>
 
-                    <nav class="hidden lg:flex items-center justify-end text-lg">
+                    <nav class="hidden lg:flex items-center justify-end text-lg" aria-label="Main navigation">
     <a title="Blog Starter Template Blog" href="/blog"
         class="ml-6 text-gray-700 hover:text-blue-600 ">
         Blog
@@ -92,7 +89,7 @@
             <a
                 title="Blog Starter Template About"
                 href="/about"
-                class="nav-menu__item hover:text-blue-500 active text-blue"
+                class="nav-menu__item hover:text-blue-500 active text-blue-600"
             >About</a>
         </li>
         <li class="pl-4">
@@ -105,12 +102,13 @@
     </ul>
 </nav>
 
-        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
+        <main id="main-content" role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
                 <h1>About</h1>
 
     <img src="/assets/img/about.png"
         alt="About image"
-        class="flex rounded-full h-64 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10">
+        class="flex rounded-full h-64 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10"
+        loading="lazy">
 
     <p class="mb-6">This is where you can give a little more information about yourself or site. If you'd like to change the structure of this page, you can find the file at <code>source/about.blade.php</code></p>
 
@@ -122,7 +120,7 @@
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none">
                 <li class="md:mr-2">
-                    &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> 2020.
+                    &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> 2026.
                 </li>
 
                 <li>

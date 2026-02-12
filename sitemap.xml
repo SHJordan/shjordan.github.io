@@ -1,73 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
- <url>
-  <loc>https://my-jigsaw-blog.com/about</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/blog/feed.atom</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/blog</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/blog/2</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/contact</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/blog/categories/configuration</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/blog/categories/feature</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/blog/custom-404-page</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/blog/customizing-your-site</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/blog/fuse-search</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/blog/getting-started</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/blog/mailchimp-newsletters</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://my-jigsaw-blog.com/blog/my-first-blog-post</loc>
-  <lastmod>2020-05-27T13:19:48+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+       xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+   <loc>https://my-jigsaw-blog.com</loc>
+   <lastmod>2020-05-27T13:19:48+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>1.0</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/blog</loc>
+   <lastmod>2020-05-27T13:19:48+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.9</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/blog"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/blog/2</loc>
+   <lastmod>2020-05-27T13:19:48+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.7</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/blog/2"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/about</loc>
+   <lastmod>2020-05-27T13:19:48+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/about"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/contact</loc>
+   <lastmod>2020-05-27T13:19:48+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.7</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/contact"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/blog/getting-started</loc>
+   <lastmod>2018-12-25T00:00:00+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/blog/getting-started"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/blog/customizing-your-site</loc>
+   <lastmod>2018-12-24T00:00:00+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/blog/customizing-your-site"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/blog/custom-404-page</loc>
+   <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+   <changefreq>yearly</changefreq>
+   <priority>0.4</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/blog/custom-404-page"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/blog/fuse-search</loc>
+   <lastmod>2018-12-22T00:00:00+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/blog/fuse-search"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/blog/mailchimp-newsletters</loc>
+   <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/blog/mailchimp-newsletters"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/blog/my-first-blog-post</loc>
+   <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+   <changefreq>yearly</changefreq>
+   <priority>0.4</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/blog/my-first-blog-post"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/blog/categories/configuration</loc>
+   <lastmod>2020-05-27T13:19:48+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/blog/categories/configuration"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/blog/categories/feature</loc>
+   <lastmod>2020-05-27T13:19:48+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.5</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/blog/categories/feature"/>
+  </url>
+  <url>
+   <loc>https://my-jigsaw-blog.com/blog/feed.atom</loc>
+   <lastmod>2020-05-27T13:19:48+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.3</priority>
+   <xhtml:link rel="alternate" hreflang="en" href="https://my-jigsaw-blog.com/blog/feed.atom"/>
+  </url>
 </urlset>
