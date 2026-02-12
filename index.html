@@ -11,6 +11,7 @@
         <meta property="og:url" content="https://my-jigsaw-blog.com/"/>
         <meta property="og:description" content="Generate an elegant blog with Jigsaw" />
 
+        <link rel="canonical" href="https://my-jigsaw-blog.com/">
         <title>Blog Starter Template</title>
 
         <link rel="home" href="https://my-jigsaw-blog.com">
@@ -25,6 +26,7 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
+        <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-white focus:p-4 focus:text-blue-600 focus:font-bold focus:shadow-lg focus:rounded">Skip to main content</a>
         <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
@@ -38,7 +40,7 @@
                 <div id="vue-search" class="flex flex-1 justify-end items-center">
                     <search></search>
 
-                    <nav class="hidden lg:flex items-center justify-end text-lg">
+                    <nav class="hidden lg:flex items-center justify-end text-lg" aria-label="Main navigation">
     <a title="Blog Starter Template Blog" href="/blog"
         class="ml-6 text-gray-700 hover:text-blue-600 ">
         Blog
@@ -101,9 +103,9 @@
     </ul>
 </nav>
 
-        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
+        <main id="main-content" role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
                         <div class="w-full mb-6">
-                            <img src="/assets/img/post-cover-image-2.png" alt="Getting Started cover image" class="mb-6">
+                            <img src="/assets/img/post-cover-image-2.png" alt="Getting Started cover image" class="mb-6" loading="lazy">
             
             <p class="text-gray-700 font-medium my-2">
                 December 25, 2018
@@ -277,7 +279,7 @@
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none">
                 <li class="md:mr-2">
-                    &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> 2020.
+                    &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> 2026.
                 </li>
 
                 <li>

@@ -1,13 +1,19 @@
-<?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Blog Starter Template</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title type="html">Blog Starter Template</title>
+    <subtitle type="text">Generate an elegant blog with Jigsaw</subtitle>
     <link href="https://my-jigsaw-blog.com" />
     <link type="application/atom+xml" rel="self" href="https://my-jigsaw-blog.com/blog/feed.atom" />
     <updated>2020-05-27T13:19:48+00:00</updated>
     <id>https://my-jigsaw-blog.com/blog/feed.atom</id>
     <author>
         <name>Author Name</name>
+        <email>author@example.com</email>
+        <uri>https://my-jigsaw-blog.com/about</uri>
     </author>
+    <generator uri="https://jigsaw.tighten.co" version="1.0">Jigsaw</generator>
+    <icon>https://my-jigsaw-blog.com/favicon.ico</icon>
+    <logo>https://my-jigsaw-blog.com/assets/img/logo-large.svg</logo>
                 <entry>
     <id>https://my-jigsaw-blog.com/blog/getting-started</id>
     <link type="text/html" rel="alternate" href="https://my-jigsaw-blog.com/blog/getting-started" />
